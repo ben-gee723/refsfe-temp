@@ -1,0 +1,6 @@
+/* Newmorphism */
+
+.bg-glass {
+    background: #fff;
+    filter: blur(30px);
+}

@@ -1,0 +1,66 @@
+{
+    "header": {
+        "logo": "",
+        "title": " ",
+        "pages": [
+            {
+                "name": "Home",
+                "path": "/"
+            },
+            {
+                "name": "About",
+                "path": "about"
+            },
+            {
+                "name": "Contact",
+                "path": "contact"
+            }
+        ]
+    },
+    "home": {
+        "sections": {
+            "section1": {
+                "title": "",
+                "information": "",
+                "img": ""
+            },
+            "section2": {
+                "title": "",
+                "information": "",
+                "img": ""
+            }
+        }
+    },
+    "about": {
+        "title": "",
+        "currentJob": ""
+    },
+    "contact": {
+        "number": "",
+        "email": "",
+        "location": "Berlin",
+        "picture": ""
+    },
+    "footer": {
+        "comments": "",
+        "copyright": "",
+        "socialMedia": {
+            "facebook": {
+                "logo": "",
+                "link": ""
+            },
+            "instagram": {
+                "logo": "",
+                "link": ""
+            },
+            "linkedIn": {
+                "logo": "",
+                "link": ""
+            },
+            "Xing": {
+                "logo": "",
+                "link": ""
+            }
+        }
+    }
+}

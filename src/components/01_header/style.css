@@ -1,0 +1,74 @@
+/* --- SETTINGS --- */
+/* (or import from App.jsx) */
+
+:root {
+    --bg-color: rgb(115, 105, 252);
+    --text-color: white;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+.navLink {
+    /* color: var(--text-color); */
+    color: black;
+}
+
+/* --- SPECIFIC --- */
+.bg-co {
+    background-color: var(--bg-color);
+}
+
+/* --- MEDIA QUERIES --- */
+@media screen and (min-width: 601px) {
+    
+    /* --- STRUCTURAL --- */
+    header {
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+    }
+
+    nav {
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav>:nth-child(1) {
+        justify-self: flex-start;
+    }
+
+    nav>:nth-child(3) {
+        justify-self: flex-end;
+    }
+
+    ul {
+        height: 5vh;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        list-style: none;
+    }
+
+    ul > .navLink {
+        padding: 0 10px;
+        color: var(--text-color);
+    }
+
+    ul > .navLink:hover {
+        height: 5vh;
+        color: black;
+        background: rgba(255, 255, 255, .2);
+        /* filter: blur(15px); */
+    }
+};
+
+@media screen and (min-width: 1025px) {};

@@ -1,0 +1,8 @@
+main {
+    width: 70vw;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    place-content: center;
+    background-color: white;
+}

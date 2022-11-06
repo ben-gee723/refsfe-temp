@@ -1,0 +1,52 @@
+/* --- SETTINGS --- */
+/* (or import from App.jsx) */
+
+:root {
+    --bg-color: rgb(115, 105, 252);
+    --text-color: white;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+/* --- SPECIFIC CLASSES --- */
+
+
+/* --- MEDIA QUERIES --- */
+
+
+@media screen and (max-width: 600px) {
+/* --- STRUCTURAL --- */
+header {
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+header .burger-menu-icon {
+    width: 100vw;
+    position: absolute;
+    bottom: 5vh;
+}
+
+nav {
+    margin: 0 auto;
+    display: none;
+    background-color: var(--bg-color);
+}
+
+/* ul {
+    display: grid;
+    list-style: none;
+} */
+
+.navLink {
+    /* color: var(--text-color); */
+    color: black;
+}
+
+
+}

@@ -1,0 +1,21 @@
+.carousel {
+    width: 400px;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+.carousel>.navLink {
+    color: black;
+}
+
+.slide1 {
+    background-color: rgba(215, 161, 58, 1);
+}
+
+.slide2 {
+    background-color: rgba(215, 161, 58, .8);
+}
+
+.slide3 {
+    background-color: rgba(215, 161, 58, .2);
+}
