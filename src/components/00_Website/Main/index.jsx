@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Outlet, Routes, Route } from 'react-router-dom';
-import { Home, About, Contact } from '../../pages/index'
+// import { Home, About, Contact } from '../../../pages/index'
 
 let style = {
     // backgroundColor: "red"

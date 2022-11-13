@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import { Header, HeaderMobile, Main, Footer, ReactLanding } from './components/index';
+import React, { useState } from 'react'
 import * as data from './dataSet.json';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import useWindowDimensions from './hooks/hooks';
+import useWindowDimensions from './hooks/utils';
+
+// COMPONENTS
+ import { ListOrdered, ListUnordered } from './components';
 
 // STYLES
 import './styles/App.css'
@@ -16,12 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-      <Header data={data.header} />
-        {/* { width > 600 ? <Header data={data.header} /> : <HeaderMobile data={data.header} />} */}
-        <Main data={data.main} />
-        {/* <Footer /> */}
-      </Router>
+      <ListUnordered/>
     </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from "react";
 import { Outlet, Routes } from "react-router-dom";
-import RouterCarousel from "../../components/00_templates/RouterCarousel";
 import "./style.css"
 
-export default function Home() {
+export default function Dashboard() {
     return (
-        <section className="Home">
+        <section className="dashboard">
             < h1 > I am Home</h1 >
             <Outlet />
             {/* <RouterCarousel /> */}
