@@ -4,10 +4,11 @@ React template for webapps. This contains a dashboard format, with widget based 
 
 ## Techstack
 
-- Vite
-- React
-- Zustand
-- Query handler?
+- Bundler: Vite
+- Framework Library: React
+- Store: Zustand
+- Query handler?: React Query || GraphQL
+- Styling: Tailwind
 
 ## Pages
 
@@ -16,8 +17,13 @@ React template for webapps. This contains a dashboard format, with widget based 
 - Profile
 - Settings
 
+## Components
+
+-
+
 ## Widgets
 
 Potentially movable widgets
 
 - Profile Information
+- Data Statistics
