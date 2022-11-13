@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    margin: 0 auto;
+    text-align: center;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+  
+.App {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
