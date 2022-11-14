@@ -1,9 +1,12 @@
 import React from 'react';
 
-export default function Card() {
+export default function Card(props) {
+    const {src, alt, title, text} = props;
     return (
-        <>
-            <h1>I am Card</h1>
-        </>
+        <div>
+            <img src={src} alt={alt} />
+            <h1>{title}</h1>
+            <p> {text} </p>
+        </div>
     )
 };

@@ -1,0 +1,41 @@
+@layer components {
+    .db-layout {
+        @apply w-screen h-screen grid grid-cols-[5vw_1fr] grid-rows-[7vh_1fr] 
+    }
+
+    .db-header {
+        @apply col-span-2
+    }
+
+    .db-sidebar {
+        @apply row-span-4
+    }
+
+    .db-main {
+        @apply p-5 col-span-1 row-span-4 w-full h-full grid grid-cols-1 grid-rows-3 gap-4
+    }
+
+    .sections {
+        @apply col-span-1 grid grid-cols-12 gap-4
+    }
+
+    .sections > div {
+        @apply rounded-lg
+    }
+
+    .db-top > div {
+        @apply bg-pastel-yellow col-span-4
+    }
+
+    .db-middle > div {
+        @apply bg-pastel-green col-span-4
+    }
+
+    .db-middle > div:nth-child(1) {
+        @apply col-span-8
+    }
+
+    .db-bottom > div {
+        @apply bg-pastel-blue col-span-3
+    }
+}

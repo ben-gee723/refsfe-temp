@@ -24,7 +24,7 @@
 @media screen and (min-width: 601px) {
     
     /* --- STRUCTURAL --- */
-    header {
+    .header {
         width: 100vw;
         height: 5vh;
         display: flex;
@@ -34,7 +34,7 @@
         background-color: var(--bg-color);
     }
 
-    nav {
+    .nav {
         width: 70%;
         margin: 0 auto;
         display: grid;
@@ -42,15 +42,15 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    nav>:nth-child(1) {
+    .nav>:nth-child(1) {
         justify-self: flex-start;
     }
 
-    nav>:nth-child(3) {
+    .nav>:nth-child(3) {
         justify-self: flex-end;
     }
 
-    ul {
+    .ul {
         height: 5vh;
         display: flex;
         place-content: center;
@@ -58,12 +58,12 @@
         list-style: none;
     }
 
-    ul > .navLink {
+    .ul > .navLink {
         padding: 0 10px;
         color: var(--text-color);
     }
 
-    ul > .navLink:hover {
+    .ul > .navLink:hover {
         height: 5vh;
         color: black;
         background: rgba(255, 255, 255, .2);

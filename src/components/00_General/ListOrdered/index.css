@@ -1,0 +1,17 @@
+@layer components {
+    .ul-class {
+        @apply h-auto m-8 flex flex-col rounded-lg
+    }
+
+    .li-div {
+        @apply h-auto my-2 px-10 flex items-center rounded-lg relative text-left drop-shadow-lg bg-neutral-100 transition ease-in-out delay-100 hover:bg-neutral-200 hover:-translate-y-2
+    }
+
+    .li-number {
+        @apply w-7 h-7 absolute top-0 left-0 text-center font-semibold text-white rounded-lg
+    }
+
+    .li-cass {
+        @apply text-lg
+    }
+};

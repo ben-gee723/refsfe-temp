@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import useWindowDimensions from './hooks/utils';
 
 // COMPONENTS
- import { ListOrdered } from './components';
+ import { DBLayout } from './components';
 
 // STYLES
 import AOS from 'aos';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='App'>
-      <ListOrdered/>
+      <DBLayout/>
     </div>
   )
 };
