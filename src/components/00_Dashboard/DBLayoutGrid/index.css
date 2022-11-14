@@ -4,27 +4,23 @@
     }
 
     .db-header {
-        @apply  bg-pastel-red col-span-1
-    }
-
-    .db-main {
-        @apply h-full w-screen
+        @apply col-span-2 bg-pastel-red
     }
 
     .db-sidebar {
-        @apply h-full bg-pastel-orange flex flex-col
+        @apply row-span-4 bg-pastel-orange 
     }
 
-    .db-mainbar{
-        @apply w-screen h-full p-4 grid grid-rows-3 gap-4
+    .db-main {
+        @apply p-5 col-span-1 row-span-4 w-full h-full grid grid-cols-1 grid-rows-3 gap-4
     }
 
     .sections {
-        @apply grid grid-cols-12 gap-4
+        @apply col-span-1 grid grid-cols-12 gap-4
     }
 
     .sections > div {
-        @apply rounded-lg 
+        @apply rounded-lg
     }
 
     .db-top > div {
@@ -36,7 +32,7 @@
     }
 
     .db-middle > div:nth-child(1) {
-        @apply bg-pastel-green col-span-8
+        @apply col-span-8
     }
 
     .db-bottom > div {
